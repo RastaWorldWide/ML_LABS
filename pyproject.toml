@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lab3-ml"
+version = "0.1.0"
+description = ""
+authors = ["ikuli <boyindaspace@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+click = "^8.1.7"
+coverage = "^7.6.4"
+awscli = "^1.35.20"
+flake8 = "^7.1.1"
+python-dotenv = ">=0.5.1"
+pathlib2 = "^2.3.7.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
